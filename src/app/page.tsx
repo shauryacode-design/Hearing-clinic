@@ -241,11 +241,11 @@ export default function Home() {
             <div className="footer-col">
               <h4>Quick Links</h4>
               <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Clinic</a></li>
-                <li><a href="#">Our Services</a></li>
-                <li><a href="#">Why Choose Us</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#doctor">About Clinic</a></li>
+                <li><a href="#services">Our Services</a></li>
+                <li><a href="#trust">Why Choose Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
               </ul>
             </div>
 
