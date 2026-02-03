@@ -134,7 +134,7 @@ html {
     flex-direction: column;
     width: 90%;
     height: auto;
-    /* margin-top: 20px; */
+    margin-top: 0px;
   }
 
   .hero-left,
