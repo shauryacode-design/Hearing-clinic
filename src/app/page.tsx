@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Home() {
   const openWhatsApp = () => {
     const phoneNumber = "919319649564";
-    const message = "Hi, I visited your website and would like to give order of sweets.";
+    const message = "Hi, I visited your website and would like book an Appointment.";
 
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappURL, "_blank");
