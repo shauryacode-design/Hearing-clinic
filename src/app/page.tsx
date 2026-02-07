@@ -212,7 +212,8 @@ export default function Home() {
 
 
             <div className="map-container">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110181.02264885243!2d77.9755900835819!3d30.346488863164605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390929000b50d79f%3A0xfa83f11845b42128!2sWecare%20Hearing%20And%20Speech%20Clinic!5e0!3m2!1sen!2sin!4v1770043845993!5m2!1sen!2sin" style={{ border: '0' }} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d220409.6832235383!2d77.85232418505264!3d30.325325143216006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390929c356c888af%3A0x4c3562c032518799!2sDehradun%2C%20Uttarakhand!5e0!3m2!1sen!2sin!4v1770440829965!5m2!1sen!2sin" style={{ border: '0' }} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+              
               <p className="address">
                 <strong>📍 Wecare Hearing And Speech Clinic</strong><br />
                 Main Road, Near City Mall<br />
