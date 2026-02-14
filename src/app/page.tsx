@@ -16,7 +16,7 @@ export default function Home() {
         <div className="hero-section" id="hero">
           <div className="container">
             <div className="hero-left">
-              <h2>Hearing & Speech Care Clinic</h2>
+              <h2>ABC Hearing Clinic</h2>
               <h1>Better Hearing Starts Here</h1>
               <h3>Professional hearing tests, digital hearing aids,
                 and personalized care under one roof.</h3>
@@ -215,7 +215,7 @@ export default function Home() {
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d220409.6832235383!2d77.85232418505264!3d30.325325143216006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390929c356c888af%3A0x4c3562c032518799!2sDehradun%2C%20Uttarakhand!5e0!3m2!1sen!2sin!4v1770440829965!5m2!1sen!2sin" style={{ border: '0' }} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
               
               <p className="address">
-                <strong>📍 Wecare Hearing And Speech Clinic</strong><br />
+                <strong>📍 ABC Hearing Clinic</strong><br />
                 Main Road, Near City Mall<br />
                 Your City – 123456
               </p>
@@ -227,7 +227,7 @@ export default function Home() {
 
             
             <div className="footer-col">
-              <h1>WeCare Hearing & Speech Clinic</h1>
+              <h1>ABC Hearing Clinic</h1>
               <p>Helping you hear better, live better.</p>
 
               <p>📍 Main Road, Near City Mall <br />Your City – 123456</p>
@@ -264,7 +264,7 @@ export default function Home() {
           </div>
 
           <div className="footer-bottom">
-            <p>© 2026 WeCare Hearing & Speech Clinic. All Rights Reserved.</p>
+            <p>© 2026 ABC Hearing Clinic. All Rights Reserved.</p>
             <p className="designer">Designed by <span>Ojha's studio</span></p>
           </div>
         </footer>
