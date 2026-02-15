@@ -265,7 +265,7 @@ export default function Home() {
 
           <div className="footer-bottom">
             <p>© 2026 ABC Hearing Clinic. All Rights Reserved.</p>
-            <p className="designer">Designed by <span>Ojha's studio</span></p>
+            <p className="designer">Designed by <span>OjhaSites</span></p>
           </div>
         </footer>
 
