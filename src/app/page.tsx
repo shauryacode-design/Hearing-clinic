@@ -29,7 +29,7 @@ export default function Home() {
                 }}>📞 Call Now</button>
                 <button onClick={openWhatsApp}>💬 WhatsApp Appointment</button>
               </div>
-              <h4>📍 Serving patients in Dehradun</h4>
+              <h4>📍 Serving patients in Your City</h4>
             </div>
             <div className="hero-right">
               <div className="hero-img">
