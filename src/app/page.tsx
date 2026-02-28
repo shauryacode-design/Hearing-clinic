@@ -2,9 +2,13 @@
 
 import Image from "next/image";
 
-export default function Home() {
+export default function ReadMore() {
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    alert("Full blog coming soon");
+  };
   const openWhatsApp = () => {
-    const phoneNumber = "919319649564";
+    const phoneNumber = "919810058676";
     const message = "Hi, I visited your website and would like book an Appointment.";
 
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
@@ -16,7 +20,7 @@ export default function Home() {
         <div className="hero-section" id="hero">
           <div className="container">
             <div className="hero-left">
-              <h2>ABC Hearing Clinic</h2>
+              <h2>Ear Connect Speech Clinic</h2>
               <h1>Better Hearing Starts Here</h1>
               <h3>Professional hearing tests, digital hearing aids,
                 and personalized care under one roof.</h3>
@@ -29,7 +33,7 @@ export default function Home() {
                 }}>📞 Call Now</button>
                 <button onClick={openWhatsApp}>💬 WhatsApp Appointment</button>
               </div>
-              <h4>📍 Serving patients in Your City</h4>
+              <h4>📍 Serving patients in Dehradun</h4>
             </div>
             <div className="hero-right">
               <div className="hero-img">
@@ -126,11 +130,11 @@ export default function Home() {
                 to provide accurate diagnosis, effective solutions, and long-term
                 support for patients of all ages.</p>
               <button onClick={() => {
-                  const contactSection = document.getElementById('contact');
-                  if (contactSection) {
-                    contactSection.scrollIntoView({ behavior: 'smooth' });
-                  }
-                }}>Book Your Hearing Test</button>
+                const contactSection = document.getElementById('contact');
+                if (contactSection) {
+                  contactSection.scrollIntoView({ behavior: 'smooth' });
+                }
+              }}>Book Your Hearing Test</button>
             </div>
             <div className="fourth-right">
               <div className="fourth-card">
@@ -149,6 +153,19 @@ export default function Home() {
                 <h1>🟢Trusted by Families</h1>
                 <p>We are proud to be a trusted hearing care partner for individuals and families in the community.</p>
               </div>
+            </div>
+          </div>
+        </div>
+        <div className="gallery-section" id="gallery">
+          <div className="gallery-heading">
+            <h1>Inside Our Clinic</h1>
+          </div>
+          <div className="gallery-container">
+            <div className="images">
+              <div className="image"><img src="/images/image1.png" alt="" /></div>
+              <div className="image"><img src="/images/image2.png" alt="" /></div>
+              <div className="image"><img src="/images/image3.png" alt="" /></div>
+              <div className="image"><img src="/images/image4.png" alt="" /></div>
             </div>
           </div>
         </div>
@@ -191,14 +208,51 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="blog-section" id="blog">
+          <div className="blog-heading">
+            <h1>Hearing Health Tips</h1>
+          </div>
+          <div className="blog-container">
+            <div className="blog-left">
+              <img src="https://nyulangone.org/news/sites/default/files/styles/hero/public/2025-10/1500x1000_GettyImages-1495330322.jpg?h=06ac0d8c&itok=aiDbM0zB" alt="" />
+              <div className="blog-text">
+                <h1>Five Early Signs of Hearing Loss You Shouldn’t Ignore</h1>
+                <p>Hearing loss doesn't always happen suddenly. Most people start noticing small things — asking others to repeat themselves, missing parts of conversations, or keeping the TV volume higher than usual. These small signs are easy to ignore, but acting early can make a big difference.</p>
+                <p>Common early signs include difficulty hearing in noisy places, frequently mishearing words, ringing in the ears, and feeling like others are mumbling. If you or a family member experiences these regularly, it may be time to get a hearing evaluation.</p>
+                <p>A simple hearing test can identify the problem early. Early diagnosis means better treatment options and a better quality of life. Don't wait until it gets worse — book a consultation today.</p>
+
+              </div>
+              <a
+                href="/"
+                onClick={handleClick}
+                className="text-blue-600 underline"
+              >Read More... </a>
+            </div>
+            <div className="blog-right">
+              <img src="https://pcl.promedica.org/-/media/pmdt-jss-site/data/media/img/ProMedicaBlog/childhood-speech-and-language-disorders.jpg?h=555&iar=0&w=1440&rev=a98551ab7fa647f1b3a2db634d3347ff&hash=C9584E669EDD89674C731EE74C1EEBAD" alt="" />
+              <div className="blog-text">
+                <h1>When is it time to see a speech therapist?</h1>
+                <p>Speech and language delays are more common than most parents realize. If your child is not speaking as clearly as other children their age, or struggles to express their thoughts, a speech therapist can help identify the root cause.</p>
+                <p>Some signs to watch for: limited vocabulary for their age, difficulty forming complete sentences, unclear speech that even family members struggle to understand, or trouble following simple instructions.</p>
+                <p>Early intervention gives the best results. Speech therapy is not just for children — adults recovering from stroke or injury also benefit greatly. If you notice any of these signs, consult a specialist without delay.</p>
+
+              </div>
+              <a
+                href="/"
+                onClick={handleClick}
+                className="text-blue-600 underline"
+              >Read More... </a>
+            </div>
+          </div>
+        </div>
         <div className="sixth-section" id="contact">
           <div className="contact">
             <h1>Book Your Hearing Consultation Today</h1>
             <div className="contact-info">
-              <p><span className="contact-span">📞 Call:</span> 91+ 12345 67890</p>
+              <p><span className="contact-span">📞 Call:</span> 91+ 98100 58676</p>
               <p><span className="contact-span">🕘 Timing:</span> 9:00 AM – 8:00 PM (Mon–Sat)</p>
               <p><span className="contact-span">🔴 Close On:</span> Sunday</p>
-              
+
 
               <button onClick={openWhatsApp}
                 className="bg-green-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-green-600 transition">
@@ -212,12 +266,12 @@ export default function Home() {
 
 
             <div className="map-container">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d220409.6832235383!2d77.85232418505264!3d30.325325143216006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390929c356c888af%3A0x4c3562c032518799!2sDehradun%2C%20Uttarakhand!5e0!3m2!1sen!2sin!4v1770440829965!5m2!1sen!2sin" style={{ border: '0' }} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
               
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1447.9857965099181!2d78.05000236413005!3d30.325077047887394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390929c721a5892b%3A0xa1e853458c647855!2sEAR%20CONNECT%20Speech%20%26%20Hearing%20Clinic!5e0!3m2!1sen!2sin!4v1772294470592!5m2!1sen!2sin" style={{ border: '0' }} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
               <p className="address">
-                <strong>📍 ABC Hearing Clinic</strong><br />
-                Main Road, Near City Mall<br />
-                Your City – 123456
+                <strong>📍 Ear Connect Speech Clinic</strong><br />
+                New Survey Rd, opp. Vikas Bhawan, Karanpur<br />
+                Dehradun – 248001
               </p>
             </div>
           </div>
@@ -225,13 +279,13 @@ export default function Home() {
         <footer className="clinic-footer">
           <div className="footer-container">
 
-            
+
             <div className="footer-col">
-              <h1>ABC Hearing Clinic</h1>
+              <h1>Ear Connect Speech Clinic</h1>
               <p>Helping you hear better, live better.</p>
 
-              <p>📍 Main Road, Near City Mall <br />Your City – 123456</p>
-              <p>📞 +91 12345 67890</p>
+              <p>📍 New Survey Rd, opp. Vikas Bhawan, Karanpur <br />Dehradun – 248001</p>
+              <p>📞 +91 98100 58676</p>
               <p>🕒 9:00 AM – 8:00 PM (Mon–Sat)</p>
 
               <button className="footer-btn" onClick={openWhatsApp}>
@@ -264,8 +318,8 @@ export default function Home() {
           </div>
 
           <div className="footer-bottom">
-            <p>© 2026 ABC Hearing Clinic. All Rights Reserved.</p>
-            <p className="designer">Designed by <span>OjhaSites</span></p>
+            <p>© 2026 Ear Connect Speech Clinic. All Rights Reserved.</p>
+            <p className="designer">Designed by <a href="https://ojhasites.vercel.app/">OjhaSites</a></p>
           </div>
         </footer>
 
