@@ -20,7 +20,7 @@ export default function ReadMore() {
         <div className="hero-section" id="hero">
           <div className="container">
             <div className="hero-left">
-              <h2>Ear Connect Speech Clinic</h2>
+              <h2>ABC Hearing and Speech Clinic</h2>
               <h1>Better Hearing Starts Here</h1>
               <h3>Professional hearing tests, digital hearing aids,
                 and personalized care under one roof.</h3>
@@ -31,9 +31,9 @@ export default function ReadMore() {
                     contactSection.scrollIntoView({ behavior: 'smooth' });
                   }
                 }}>📞 Call Now</button>
-                <button onClick={openWhatsApp}>💬 WhatsApp Appointment</button>
+                <button>💬 WhatsApp Appointment</button>
               </div>
-              <h4>📍 Serving patients in Dehradun</h4>
+              <h4>📍 Serving patients in City</h4>
             </div>
             <div className="hero-right">
               <div className="hero-img">
@@ -113,7 +113,7 @@ export default function ReadMore() {
                     contactSection.scrollIntoView({ behavior: 'smooth' });
                   }
                 }}>📞 Book a Consultation</button>
-                <button onClick={openWhatsApp}>💬 Talk to Our Specialist</button>
+                <button>💬 Talk to Our Specialist</button>
               </div>
             </div>
           </div>
@@ -249,12 +249,12 @@ export default function ReadMore() {
           <div className="contact">
             <h1>Book Your Hearing Consultation Today</h1>
             <div className="contact-info">
-              <p><span className="contact-span">📞 Call:</span> 91+ 98100 58676</p>
+              <p><span className="contact-span">📞 Call:</span> 91+ 12345 67890</p>
               <p><span className="contact-span">🕘 Timing:</span> 9:00 AM – 8:00 PM (Mon–Sat)</p>
               <p><span className="contact-span">🔴 Close On:</span> Sunday</p>
 
 
-              <button onClick={openWhatsApp}
+              <button 
                 className="bg-green-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-green-600 transition">
                 WhatsApp for Appointment
               </button>
@@ -267,11 +267,11 @@ export default function ReadMore() {
 
             <div className="map-container">
               
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1447.9857965099181!2d78.05000236413005!3d30.325077047887394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390929c721a5892b%3A0xa1e853458c647855!2sEAR%20CONNECT%20Speech%20%26%20Hearing%20Clinic!5e0!3m2!1sen!2sin!4v1772294470592!5m2!1sen!2sin" style={{ border: '0' }} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110204.75443569123!2d77.93473309708199!3d30.325402625617453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390929c356c888af%3A0x4c3562c032518799!2sDehradun%2C%20Uttarakhand!5e0!3m2!1sen!2sin!4v1774417637346!5m2!1sen!2sin"  style={{ border: '0' }} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
               <p className="address">
-                <strong>📍 Ear Connect Speech Clinic</strong><br />
-                New Survey Rd, opp. Vikas Bhawan, Karanpur<br />
-                Dehradun – 248001
+                <strong>📍 ABC Hearing and Speech Clinic</strong><br />
+                Clinic Addressr<br />
+                City - Pincode
               </p>
             </div>
           </div>
@@ -281,14 +281,14 @@ export default function ReadMore() {
 
 
             <div className="footer-col">
-              <h1>Ear Connect Speech Clinic</h1>
+              <h1>ABC Hearing and Speech Clinic</h1>
               <p>Helping you hear better, live better.</p>
 
-              <p>📍 New Survey Rd, opp. Vikas Bhawan, Karanpur <br />Dehradun – 248001</p>
-              <p>📞 +91 98100 58676</p>
+              <p>📍 Clinic Address <br />City – Pincode</p>
+              <p>📞 +91 12345 67890</p>
               <p>🕒 9:00 AM – 8:00 PM (Mon–Sat)</p>
 
-              <button className="footer-btn" onClick={openWhatsApp}>
+              <button className="footer-btn" >
                 WhatsApp for Appointment
               </button>
             </div>
@@ -318,7 +318,7 @@ export default function ReadMore() {
           </div>
 
           <div className="footer-bottom">
-            <p>© 2026 Ear Connect Speech Clinic. All Rights Reserved.</p>
+            <p>© 2026 ABC Hearing and Speech Clinic. All Rights Reserved.</p>
             <p className="designer">Designed by <a href="https://ojhasites.vercel.app/">OjhaSites</a></p>
           </div>
         </footer>
