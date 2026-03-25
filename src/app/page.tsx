@@ -7,13 +7,7 @@ export default function ReadMore() {
     e.preventDefault();
     alert("Full blog coming soon");
   };
-  const openWhatsApp = () => {
-    const phoneNumber = "919810058676";
-    const message = "Hi, I visited your website and would like book an Appointment.";
-
-    const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
-    window.open(whatsappURL, "_blank");
-  };
+  
   return (
     <div className="whole">
       <main>
